@@ -1,0 +1,3 @@
+var=$(find . -name "*.fasta" -or -name "*.fa")
+grep ">" $var
+
